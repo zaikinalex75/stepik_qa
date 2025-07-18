@@ -8,6 +8,6 @@ class MainPage(BasePage):
        login_link.click()
 
     def should_contain_login_link(self):
-        assert self.is_element_present(By.CSS_SELECTOR, "#login_link123"), \
+        assert self.is_element_present(By.CSS_SELECTOR, "#login_link"), \
                'Нет ссылки входа на главной странице!'
    
